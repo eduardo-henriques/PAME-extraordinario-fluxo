@@ -161,7 +161,8 @@ header{
 }
 #postownerDiv{
     padding-top: 5px;
-
+    height: 25px;
+    width: 60px;
 }
 #posttextDiv{
 
