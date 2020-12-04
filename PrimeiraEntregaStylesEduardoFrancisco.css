@@ -89,12 +89,12 @@ header{
 #postagem{
     display: flex;
     margin-top: 15%;
-    margin-left: 30%;
+    margin-left: 22%;
     margin-right: -5px;
 }
 #ladoDireito{
     height: 534px;
-    width: 60%;
+    width: 360px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -194,34 +194,39 @@ header{
 }
 
 #abaixoLegenda{
-    height: 30%;
+    height: 33%;
     display: flex;
     justify-content: bottom;
     border-top: 1px #dbdbdb solid;
-
+    margin-bottom: 30px;
+    
 }
 
 #balao,
 #curtidaLegenda{
     height: 30px;
     width: 30px;
-    padding-left: 15px;
+    padding-left: 13px;
     cursor: pointer;
+    padding-top: 10px;
 }
 
 #encaminharLegenda{
     height: 30px;
     width: 30px;
-    padding-left: 15px;
+    padding-left: 13px;
     transform: rotate(-30deg);
     cursor: pointer;
+    padding-top: 10px;
 }
 
 #salvar{
-    height:35px;
-    width: 35px;
-    padding-left: 270px;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    padding-left: 150px;
     cursor: pointer;
+    padding-top: 10px;
 }
 
 
@@ -243,19 +248,20 @@ header{
     border: none;
     font-size: medium;
     color: #dbdbdb;
+    padding-left: 17px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #publicar{
     height: 60%;
-    width: 40%;
+    width: 20%;
     background-color: white;
     text-align: center;
     border: none;
-    margin-left: 5%;
+    margin-right: 8px;
     color: aqua;
     font-size: medium;
     cursor: pointer;
-    padding-left: 45px;
+    padding-left: -30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
